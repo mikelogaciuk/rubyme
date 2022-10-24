@@ -2,20 +2,17 @@
 
 ## Introduction
 
-Although `Python` and `SQL` still remain as my core `DataOps` languages, I consider `Ruby` as my primary backend language.
+Although `Python` and `SQL` still remain as my core `DataOps` languages, I consider `Ruby` as my primary backend language. Because of that I decided to write down few things just as a reminder.
 
-Why `Ruby`?
+Why I choose `Ruby` as a backend language instead of TS (Express, AdonisJs) or Python (Django)?
 
-    `Ruby` syntax reminds me native language than any other programming language.
+Well:
+
+    Ruby syntax reminds me native language than any other programming language.
     It is full blown object oriented languge, even more than Python (in my opinion).
-    It has an elegant and clean syntax, with a great batteries such us Rails or Sinatra, Sequel etc.
+    It has an elegant and clean syntax, with a great batteries included frameworks such us Rails or Sinatra, Sequel, Thor etc.
 
 All eventual code resides in `./src` directory.
-
-For further reading, e.g. style guide, please consider those two:
-
-- [rubocop/ruby-style-guide](https://github.com/rubocop/ruby-style-guide)
-- [airbnb/ruby](https://github.com/airbnb/ruby)
 
 ## Contents
 
@@ -31,6 +28,7 @@ For further reading, e.g. style guide, please consider those two:
 - [Object oriented programming](#object-oriented-programming)
 - [Modules](#modules)
 - [Exceptions and errors](#exceptions-and-errors)
+- [Notes](#notes)
 
 Head back to [contents](#contents).
 
@@ -787,3 +785,10 @@ end
 ```
 
 Go back to [contents](#contents).
+
+## Notes
+
+For further reading, e.g. style guide, please consider those two:
+
+- [rubocop/ruby-style-guide](https://github.com/rubocop/ruby-style-guide)
+- [airbnb/ruby](https://github.com/airbnb/ruby)
