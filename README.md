@@ -497,6 +497,7 @@ class Locomotive
     @axes = axes
   end
 
+  private
   def is_freight?
     true if @axes > 6 and @axes < 10
   end
